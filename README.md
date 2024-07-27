@@ -33,15 +33,8 @@ Ok, these are your tasks:
    Bob.) Also, poor us, declaring a global variable from inside a function is
    one of those things we would never want to do normally, but is good for us to
    explore right now.
-- `overwriteBestCustomer()`: See the consequences of declaring a variable in
-   global scope, by writing a new function called `overwriteBestCustomer()` that
-   changes that `bestCustomer` variable to `'maybe bob'`.
-- `leastFavoriteCustomer` and `changeLeastFavoriteCustomer()`: Now declare a
-  constant (using the `const` keyword) in global scope called
-  `leastFavoriteCustomer`; be sure to assign it some initial value. Finally,
-  write a function called `changeLeastFavoriteCustomer()` that attempts to
-  change that constant - notice what JavaScript does when you try to change the
-  constant.
+- `overwriteBestCustomer(): See the consequences of declaring a variable in global scope, by writing a new function called overwriteBestCustomer() that changes that bestCustomer variable to 'maybe bob'.
+leastFavoriteCustomer and changeLeastFavoriteCustomer(): Now declare a constant (using the const keyword) in global scope called leastFavoriteCustomer; be sure to assign it some initial value. Finally, write a function called changeLeastFavoriteCustomer() that attempts to change that constant - notice what JavaScript does when you try to change the constant.
 
 When you're done, remember to commit and push your changes up to GitHub, then
 submit your work to Canvas using CodeGrade.
